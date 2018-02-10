@@ -1,4 +1,4 @@
-# start_wsl
+# begin_wsl
 :baby: はじめてのWSL
 
 ## 環境
