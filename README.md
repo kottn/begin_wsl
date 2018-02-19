@@ -1,5 +1,5 @@
 # begin_wsl
-:baby: はじめてのWSL
+:beginner: はじめてのWSL
 
 ## WSL ?
 * **W**indows **S**ubsystem for **L**inux
