@@ -20,7 +20,7 @@ Windows10 （Windows Updateは最新の状態にしておく）
 注） 非常にわかりやすいが、会社で読むには勇気がいるかもしれない。
 
 ## インストール（紳士用）
-1. **Windows 10 Fall Creators Update (バージョン1709）** へ更新（最新にすればいい）
+1. **Windows 10 Fall Creators Update (Ver. 1709)** へ更新（最新にすればいい）
 1. hoge
 
 ## 設定
@@ -35,4 +35,10 @@ $ sudo apt install x11-apps
 $ echo "export DISPLAY=localhost:0.0" >> ~/.bash_profile
 $ source ~/.bash_profile
 $ xeyes   # 確認
+```
+
+### apt
+```
+$ sudo apt install \
+firefox
 ```
