@@ -1,0 +1,5 @@
+# /etc/apt/sources.list.d/jaist.list
+deb http://ftp.jaist.ac.jp/pub/Linux/ubuntu/ xenial main restricted universe multiverse
+deb http://ftp.jaist.ac.jp/pub/Linux/ubuntu/ xenial-updates main restricted universe multiverse
+deb http://ftp.jaist.ac.jp/pub/Linux/ubuntu/ xenial-backports main restricted universe multiverse
+# deb http://ftp.jaist.ac.jp/pub/Linux/ubuntu/ xenial-security main restricted universe multiverse
