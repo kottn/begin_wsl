@@ -23,14 +23,14 @@ Windows10 で **Ubuntu 16.04** を動かす
 
 ## 初期設定
 #### リポジトリ参照先の変更
-* 国内ミラーの有効化
+* デフォルトが`http://archive.ubuntu.com/ubuntu/`なので遅い。日本国内のミラーに変更する。
 * `/etc/apt/sources.list.d/`の下に`jaist.list`と`yamagata.list`を置く。
 ```
 $ cd /etc/apt/sources.list.d \
     && sudo curl -LO https://raw.githubusercontent.com/kottn/begin_wsl/master/jaist.list \
     && sudo curl -LO https://raw.githubusercontent.com/kottn/begin_wsl/master/yamagata.list
 ```
-* デフォルト設定`archive.ubuntu.com`の無効化
+* `archive.ubuntu.com`の無効化
 ```
 $ sudo vi /etc/apt/source.list
 ```
