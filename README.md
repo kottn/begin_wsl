@@ -32,7 +32,7 @@ $ cd /etc/apt/sources.list.d \
 ```
 * デフォルト設定`archive.ubuntu.com`の無効化
 ```
-$ sudo vi /etc/apt/source.list
+$ sudo vi /etc/apt/sources.list
 ```
 * `deb http://archive.ubuntu.com/ubuntu/ ほにゃらら...`の行をコメントアウト。
 * `deb http://security.ubuntu.com/ubuntu/ ほにゃらら...`の行はそのまま。
