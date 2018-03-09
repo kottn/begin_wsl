@@ -39,9 +39,9 @@ $ sudo apt upgrade
 
 ### X の設定 :eyes:
 ```
-$ sudo apt install ???
-$ echo "export DISPLAY=localhost:0.0" >> ~/.bash_profile
-$ source ~/.bash_profile
+$ sudo apt install xorg
+$ echo "export DISPLAY=localhost:0.0" >> ~/.profile
+$ source ~/.profile
 $ xeyes
 ```
 あらかじめ Windows 側で Xming等 を起動してればおめめがでてくるはず。
@@ -61,6 +61,8 @@ $ sudo apt install \
     gnuplot5-x11 \
     bash-completion
 ```
+※ Debian の場合 Ubuntu に比べて元から入っているツールが少ないので、これ以外にもいろいろ必要かもしれない。
+
 これで必要最低限の設定は終わりです。
 
 [便利な設定へ](./finish.md)
