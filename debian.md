@@ -14,13 +14,13 @@ $ cat /etc/os-release
 
 ## 初期設定
 ### リポジトリ参照先の変更
-1. 国内ミラーの有効化。
+* 国内ミラーの有効化。
 ```
 $ sudo apt install curl
 $ cd /etc/apt/sources.list.d \
         && sudo curl -LO https://raw.githubusercontent.com/kottn/begin_wsl/master/jpdebian.list
 ```
-1. デフォルト（`deb.debian.org`）の無効化。
+* デフォルト（`deb.debian.org`）の無効化。
 ```
 $ sudo vi /etc/apt/sources.list
 ```
