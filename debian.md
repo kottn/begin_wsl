@@ -16,6 +16,7 @@ $ cat /etc/os-release
 ### リポジトリ参照先の変更
 1. 国内ミラーの有効化。
 ```
+$ sudo apt install curl
 $ cd /etc/apt/sources.list.d \
         && sudo curl -LO https://raw.githubusercontent.com/kottn/begin_wsl/master/jpdebian.list
 ```
