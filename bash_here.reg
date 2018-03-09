@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\WSL]
+@="Bash ÇÇ±Ç±Ç≈äJÇ≠ÅI"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\WSL\command]
+@="cmd.exe /c pushd \"%V\" && bash.exe"
