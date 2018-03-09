@@ -25,12 +25,12 @@
 長いので要約する。
 
 ### 1. WSL 機能を有効にする
-1. Windows Update を**最新**に。
-1. **PowerShell** を**管理者権限で**開き、以下を実行。
+* Windows Update を**最新**に。
+* **PowerShell** を**管理者権限で**開き、以下を実行。
 ```
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ```
-1. 再起動。
+* 再起動。
 
 ### 2. OS を選んでインストール
 
