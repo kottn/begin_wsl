@@ -24,7 +24,7 @@ $ cd /etc/apt/sources.list.d \
 ```
 $ sudo vi /etc/apt/sources.list
 ```
-:pencil: `deb http://archive.ubuntu.com/ubuntu/ ほにゃらら...` の行をコメントアウト
+:pencil: `deb http://archive.ubuntu.com/ubuntu/ ほにゃらら...` の行をコメントアウト  
 ※security関連（`deb http://security.ubuntu.com/ubuntu/ ほにゃらら...`）はそのまま
 
 * 仕上げ
