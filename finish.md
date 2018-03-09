@@ -15,7 +15,8 @@ $ ls -l   # リンク先確認
 ```
 
 ## 右クリック したらそこで Bash を開ける設定
-1. Windowsにて、このリポジトリの`bash_here.reg`をダウンロードし、ダブルクリック。
+1. [`bash_here.reg`](https://raw.githubusercontent.com/kottn/begin_wsl/master/bash_here.reg)をクリック、ダウンロード（名前を付けて保存）。
+1. ダブルクリック。
 1. はい、はい、OK
 1. 好きなところで 右クリック ⇒ 「Bash をここで開く！」
 1. なお、右クリック => b でも起動すると思います。
