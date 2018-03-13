@@ -54,8 +54,6 @@ $ sudo apt install \
     gfortran \
     vim \
     git \
-    manpages-ja \
-    manpages-ja-dev \
     tree \
     less \
     gnuplot5-x11 \
