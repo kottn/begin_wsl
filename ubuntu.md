@@ -49,8 +49,6 @@ $ sudo apt install \
     gfortran \
     vim \
     git \
-    manpages-ja \
-    manpages-ja-dev \
     tree \
     gnuplot5-x11 \
     bash-completion
